@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <!-- ①. ページのボティー部分 -->
+  <head>
+    <title>RAIDE</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <!-- ②. ページのボティー部分 -->
+  <body>
+    <script src="./main.js">
+    </script>
+    <!-- ②-1. ページのヘッダー部分 -->
+    <header class="header-title">
+        <div class="header-title-icon" style="margin-top: 10px;padding-left: 5px;">
+        <img src="./picture/menubarlogo.png"onclick="welcome()">
+        </div>
+    </header>
+    <article style="padding-top: 90px;">
+        <!-- ②-2. ページのメイン部分 -->
+        <section>
+        <!-- ②-2-2. ページのメイン部分:背景 -->
+            <div id="main-introduction" style="height: 100%;width: 100%;">
+                <img src="./picture/main.png">
+            </div>
+            <!-- ②-2-1. ページのメイン部分:商品 -->
+            <div id="main-product">
+                <h1 style="text-align: center;font-size: 25px;height: 50px;margin-left: 40px;margin-right: 30px;">お取り扱い商品一覧</h1>
+                <ul class = "main-product-pic" style="list-style: none;">
+                    <li><img src="./picture/productphoto/box1/box1_01.png" onclick="openClock()" style="border:solid 1px #CCCCCC;"></li>
+                    <li><img src="./picture/productphoto/box2/box2_01.png" onclick="openFigure()" style="border:solid 1px #CCCCCC;"></li>
+                    <li><img src="./picture/productphoto/box3/box3_01.png" onclick="openBaloon()" style="border:solid 1px #CCCCCC;"></li>
+                </ul>
+            </div>
+        </section>
+      <footer>
+        <section style="width: 100%;">
+            <div class="footer-top" style="height: 100%;width: 100%;">
+                <img src="./picture/footer/RAIDE_Logo.png" align="left"; style="padding-top: 10px;">
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="footer-middle">
+                <p style="font-weight: bold;">代表者</p>
+                <p style="margin-left: 10px;">加藤木浩太</p>
+                <p style="font-weight: bold">住所</p>
+                <p style="margin-left: 10px;">〒177-0035</p>
+                <p style="margin-left: 10px;">東京都練馬区南田中5-10-9-106</p>
+                <p style="font-weight: bold">電話番号</p>
+                <p style="margin-left: 10px;">080-5906-4610</p>
+                <p>プライバシーポリシー</p>
+            </div>
+        </section>
+      </footer>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <!-- ①. ページのボティー部分 -->
+  <head>
+    <title>RAIDE</title>
+    <link rel="stylesheet" href="figure.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <!-- ②. ページのボティー部分 -->
+  <body>
+    <script src="./main.js">
+    </script>
+    <!-- ②-1. ページのヘッダー部分 -->
+    <div class="header">
+      <header class="header-title">
+          <div class="header-title-icon" style="padding-top: 10px;padding-left: 5px;">
+            <img src="./picture/menubarlogo.png"onclick="welcome()">
+          </div>
+      </header>
+    </div>
+    <div class="main">
+      <div class="product">
+        <img loading="lazy" id="animal" src="./picture/productphoto/box2/animal/animal1.png" style="width:420px; border:solid gainsboro 1px;" >
+        <div class="product-detail" style="display: flex;">
+          <img loading="lazy" id="main-product-animal" src="./picture/productphoto/box2/animal/animal1.png" width="27%" height="10%" onclick="changeanimal1()" style="margin-left: 5px;">
+          <img loading="lazy" id="main-product-animal" src="./picture/productphoto/box2/animal/animal2.png" width="27%"  height="10%" onclick="changeanimal2()" style="margin-left: 17px;">
+          <img loading="lazy" id="main-product-animal" src="./picture/productphoto/box2/animal/animal3.png" width="27%"  height="10%" onclick="changeanimal3()"style="margin-left: 17px;">
+        </div>
+      </div>
+      <div class="introduction">
+        <span>【商品名】</span><br>
+        <span style="padding-left: 10px;">かわいい アニマル マスコット コレクション </span><br>
+        <span>【サイズ】</span><br>
+        <span style="padding-left: 10px;">約4×5×4cm(マスコット1個あたり)</span><br>
+        <span>【重量】</span><br>
+        <span style="padding-left: 10px;">約0.05kg(マスコット1個あたり)</span><br>
+        <span>【材質】</span><br>
+        <span style="padding-left: 10px;">ポリレジン</span><br>
+        <span>【商品詳細】</span><br>
+        <span style="padding-left: 10px;">【📖絵本の世界観】かわいい動物のマスコットフィギュア9体セットです。</span>
+        <span style="padding-left: 10px;">【📷ちょっとしたインテリアに】癒される表情の可愛い動物を玄関や棚に飾って癒されましょう。</span><br>
+        <span style="padding-left: 10px;">【🎁プレゼントにもピッタリ！】</span><br>
+        <span>【原産国】</span><br>
+        <span style="padding-left: 10px;">中国</span><br>
+      </div>
+    </div>
+    <!-- ②-2. ページのメイン部分 -->
+    <div class="footer">
+      <footer>
+          <div class="footer-top">
+            <img src="./picture/footer/RAIDE_Logo.png" align="left"; style="padding-top: 10px;">
+          </div>
+          <div class="footer-middle">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <p style="font-weight: bold;">代表者</p>
+            <p style="margin-left: 10px;">加藤木浩太</p>
+            <p style="font-weight: bold">住所</p>
+            <p style="margin-left: 10px;">〒177-0035</p>
+            <p style="margin-left: 10px;">東京都練馬区南田中5-10-9-106</p>
+            <p style="font-weight: bold">電話番号</p>
+            <p style="margin-left: 10px;">080-5906-4610</p>
+            <p>
+              プライバシーポリシー
+            </p>
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>
